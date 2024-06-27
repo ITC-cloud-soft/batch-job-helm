@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2024-06-27T10:15:11.829804+09:00"
+entries:
+  batch-job-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-27T10:28:02.459359+09:00"
+    description: A Helm chart for Kubernetes
+    digest: bac0a531084b39394ef543c0362599c17efaa879f53fff13d1a60151c43fa36d
+    name: batch-job-helm
+    type: application
+    urls:
+    - https://github.com/ITC-cloud-soft/batch-job-helm/batch-job-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-27T10:28:02.45836+09:00"

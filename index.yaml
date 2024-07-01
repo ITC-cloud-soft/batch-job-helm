@@ -3,7 +3,7 @@ entries:
   batch-job-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-27T10:28:02.459359+09:00"
+    created: "2024-06-27T10:28:02.459359+09:01"
     description: A Helm chart for Kubernetes
     digest: bac0a531084b39394ef543c0362599c17efaa879f53fff13d1a60151c43fa36d
     name: batch-job-helm

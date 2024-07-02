@@ -85,7 +85,7 @@ affinity: {}
 secret:
   environment: "Production"
 # when embedded is false
-  dburl: "server=4.241.26.23;database=batch;user=root;port=4000"
+  dburl: "{}"
 ## Installation & configuration of stable/mysql
 ## See requirements.yaml for current version
 mysql:

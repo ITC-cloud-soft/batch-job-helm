@@ -9,6 +9,6 @@ entries:
     name: batch-job-helm
     type: application
     urls:
-    - https://itc-cloud-soft.github.io/batch-job-helm/batch-job-helm-0.1.0.tgz
-    version: 0.1.0
+    - https://itc-cloud-soft.github.io/batch-job-helm/batch-job-helm-0.1.1.tgz
+    version: 0.1.1
 generated: "2024-06-27T10:28:02.45836+09:00"

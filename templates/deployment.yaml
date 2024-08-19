@@ -35,7 +35,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: {{ .Values.service.port }}
+              containerPort: 80
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
@@ -50,6 +50,8 @@ spec:
                 secretKeyRef:
                   name: batch-job-secret
                   key: DB
+            - name: TZ
+              value: "Asia/Tokyo"  # 设置时区为东京时间
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

@@ -8,7 +8,7 @@ image:
   repository: thomaszy2077/batch
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1"
+  tag: "3"
 
 imagePullSecrets: []
 nameOverride: ""
